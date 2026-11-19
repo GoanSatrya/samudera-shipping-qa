@@ -1,4 +1,4 @@
-import { validateSelectedConfig } from "../config/runtime.js";
+import { validateSelectedConfig } from "../framework/configuration/runtime.js";
 
 try {
   const app = validateSelectedConfig();

@@ -1,4 +1,4 @@
-import type { EnvironmentConfig } from "../environment.schema.js";
+import type { EnvironmentConfig } from "../../framework/configuration/environment.schema.js";
 
 export const sitEnvironment: EnvironmentConfig = {
   name: "sit",

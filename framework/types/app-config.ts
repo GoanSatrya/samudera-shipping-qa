@@ -1,4 +1,4 @@
-import type { EnvironmentName } from "../../config/environment.schema.js";
+import type { EnvironmentName } from "../configuration/environment.schema.js";
 
 export const APP_IDS = [
   "app-01",

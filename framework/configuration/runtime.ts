@@ -1,10 +1,10 @@
 import "dotenv/config";
-import { APPLICATIONS } from "./applications/index.js";
+import { APPLICATIONS } from "../../config/applications/index.js";
 import {
   isEnvironmentName,
   type EnvironmentName,
 } from "./environment.schema.js";
-import { APP_IDS, type AppId, type ResolvedAppConfig } from "../framework/types/app-config.js";
+import { APP_IDS, type AppId, type ResolvedAppConfig } from "../types/app-config.js";
 
 export function getAppId(value = process.env.APP_ID ?? "app-01"): AppId {
   if (!Object.hasOwn(APPLICATIONS, value)) {

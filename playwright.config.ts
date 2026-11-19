@@ -1,6 +1,6 @@
 import "dotenv/config";
 import { defineConfig, devices } from "@playwright/test";
-import { getSelectedAppConfig } from "./config/runtime.js";
+import { getSelectedAppConfig } from "./framework/configuration/runtime.js";
 
 const app = getSelectedAppConfig();
 

@@ -1,7 +1,7 @@
 import { spawnSync } from "node:child_process";
 import { resolve } from "node:path";
 import "dotenv/config";
-import { getAppId } from "../config/runtime.js";
+import { getAppId } from "../framework/configuration/runtime.js";
 
 try {
   const appId = getAppId(process.argv[2]);
